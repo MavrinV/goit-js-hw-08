@@ -1,0 +1,18 @@
+body{
+    margin: 0 auto;
+}
+
+.gallery  {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-image{
+    width: 360px;
+}
+
+.gallery-image:hover{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
